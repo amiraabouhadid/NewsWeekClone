@@ -4,7 +4,7 @@
 
 We were asked to create a responsive clone of the Newsweek webpage using Bootsrap.
 
-![screenshot](./app_screenshot.png)
+![project3](https://user-images.githubusercontent.com/56790126/109511517-cbac6000-7aab-11eb-8e9d-2c7d0b7788ae.png)
 
 Additional description about the project and its features.
 
