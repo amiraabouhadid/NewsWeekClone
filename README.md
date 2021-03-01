@@ -11,7 +11,7 @@ Additional description about the project and its features.
 ## Built With
 
 - HTML5
-- Bootsrap
+- bootstrap
 - Atom and VS Code text editors.
 
 ## Live Demo
