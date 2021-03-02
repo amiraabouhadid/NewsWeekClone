@@ -1,5 +1,23 @@
+h6 {
+  font-size: 15px;
+  color: rgba(3,3,3,.4);
+
+}
+
+img {
+  width: 100%;
+}
+
+main p {
+  font-size: 13px;
+}
+
 .redheader {
   background-color: #f72210;
+}
+
+.main-t {
+  font-size: 24px;
 }
 
 .na-bar a,
