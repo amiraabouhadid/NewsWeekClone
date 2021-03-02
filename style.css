@@ -18,14 +18,11 @@ p {
 .headerleft i {
   color: white;
   opacity: 0.7;
+  font-size: 4vw;
 }
 
 .btn-subscribe {
   font-size: 2vw;
-}
-
-.headerleft i {
-  font-size: 4vw;
 }
 
 .na-bar {
