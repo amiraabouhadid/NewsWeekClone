@@ -34,12 +34,6 @@ Clone repository from github to your local drive using git clone command.
 -Install Atom or Microsoft Visual Studio text editor to view the code on your local machine.
 -Install Git.
 
-### Usage
-This repository should only be used for educational purposes.
-
-### Run tests
-Feel free to run tests on this repository by creating pull requests.
-
 ### Deployment
 -Open live-server from your text-editor to see the website.
 -Use github pages to view from the Live Demo link above.
