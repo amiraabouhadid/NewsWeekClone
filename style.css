@@ -1,0 +1,40 @@
+.redheader {
+  background-color: #f72210;
+}
+
+.redheader p {
+  font-size: 1.25vw;
+}
+
+.btn-login {
+  font-size: 1.25vw;
+}
+
+.btn-subscribe {
+  font-size: 2vw;
+}
+
+.headerleft i {
+  font-size: 4vw;
+}
+
+.na-bar {
+  max-width: 992px;
+  max-height: 50px;
+}
+
+.na-bar a, p {
+  font-size: 12.5px;
+}
+
+.searchform input {
+  font-size: 12.5px;
+  width: 50px;
+}
+
+.copyright {
+  font-size: 1.75vw;
+}
+
+.sociallinks a {
+  font-size: 2.25vw;

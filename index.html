@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.scss">
+  <link rel="stylesheet" href="style.css">
   <title>News-Week</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 
@@ -19,9 +19,9 @@
 
 <body>
   <header class='bg-white'>
-    <div style='background-color:#f72210' class="container-fluid  mt-5 d-block">
+    <div class=" redheader container-fluid  d-block">
       <div class="d-flex flex-wrap align-items-end justify-content-between ">
-        <p style='font-size:1.25vw;' class="text-white d-none d-md-block ml-3">Wed, Jan 20, 2021</p>
+        <p class=" text-white d-none d-lg-block ml-3">Wed, Jan 20, 2021</p>
         <a href="#">
           <svg style="fill: #fff;" class='align-items-center' version="1.1" width="30vw" height="8vw" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 396 60" xml:space="preserve">
             <g>
@@ -32,13 +32,13 @@
           </svg>
         </a>
 
-        <div class=" row flex-wrap align-items-baseline mr-3 ">
+        <div class=" headerleft row flex-wrap align-items-center mr-3 ">
 
-          <button style='font-size:1.25vw;' type="button" class="d-none d-lg-block text-white btn btn-default btn-sm font-weight-bolder mr-2">
+          <button type="button" class="btn-login d-none align-self-start d-lg-block text-white btn btn-default btn-sm font-weight-bolder mr-2">
             LOGIN <i class="fas fa-user d-none d-sm-block d-md-none"></i></button>
-          <i class="fas fa-user d-lg-none pr-3"></i>
-          <button style='font-size:1.25vw;' type="button" class="btn btn-warning rounded-pill p-1 mb-2">Subscribe ></button>
-          <a href="#"> <i style='font-size:1.25vw;' class="fas fa-bars d-lg-none text-white pl-2"></i></a>
+          <i class="fas fa-user d-lg-none pr-3 mb-2"></i>
+          <button type="button" class="btn-subscribe btn btn-warning rounded-pill p-1 mb-2">Subscribe ></button>
+          <a href="#"> <i class="fas fa-bars d-lg-none text-white pl-2"></i></a>
         </div>
 
 
@@ -46,45 +46,49 @@
     </div>
 
     <div class="container-fluid flex-nowrap">
-      <nav style="max-width:992px; max-height:50px" class="nav navbar-expand-md row align-items-baseline justify-content-between ml-2 flex-nowrap bg-white">
+      <nav class="na-bar nav navbar-expand-md row align-items-baseline justify-content-between ml-2 flex-nowrap bg-white">
 
-        <a style='font-size:12.5px' class=" nav-link font-weight-bolder  text-dark d-none d-lg-flex  " href="#">U.S.</a>
-        <p style='font-size:12.5px' class='d-none d-lg-flex font-weight-lighter'> | </p>
-        <a style='font-size:12.5px' class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">World</a>
-        <p style='font-size:12.5px' class='d-none d-lg-flex font-weight-lighter'> | </p>
-        <a style='font-size:12.5px' class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#"> Business </a>
-        <p style='font-size:12.5px' class='d-none d-lg-flex  font-weight-lighter'> | </p>
-        <a style='font-size:12.5px' class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Tech&Science </a>
-        <p style='font-size:12.5px' class='d-none d-lg-block font-weight-lighter'> | </p>
-        <a style='font-size:12.5px' class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Culture </a>
-        <p style='font-size:12.5px' class='d-none d-lg-block  font-weight-lighter'> | </p>
-        <a style='font-size:12.5px' class="nav-link text-dark font-weight-bolder d-none d-lg-flex" href="#">Newsgeek</a>
-        <p style='font-size:12.5px' class='d-none d-lg-block  font-weight-lighter'> | </p>
-        <a style='font-size:12.5px' class="nav-link text-dark font-weight-bolder d-none d-lg-flex" href="#">Sports </a>
-        <p style='font-size:12.5px' class='d-none d-lg-block  font-weight-lighter'> | </p>
-        <a style='font-size:12.5px' class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Health </a>
-        <p style='font-size:12.5px' class='d-none d-lg-block  font-weight-lighter'> | </p>
-        <a style='font-size:12.5px' class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Debate </a>
-        <p style='font-size:12.5px' class='d-none d-lg-block font-weight-lighter'> | </p>
-        <a style='font-size:12.5px' class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Experts </a>
-        <p style='font-size:12.5px' class='d-none d-lg-block  font-weight-lighter'> | </p>
-        <a style='font-size:12.5px' class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Vantage </a>
-        <form class='row flex-nowrap ml-2 d-none d-lg-flex'><input class=" border-0   text-dark font-weight-lighter  " title="search-field" type="text" style='font-size:12.5px' placeholder="Search... "> <i class="fas fa-search font-weight-lighter mr-auto  text-dark "></i>
+        <a class=" nav-link font-weight-bolder  text-dark d-none d-lg-flex  " href="#">U.S.</a>
+        <p class='d-none d-lg-flex font-weight-lighter'> | </p>
+        <a class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">World</a>
+        <p class='d-none d-lg-flex font-weight-lighter'> | </p>
+        <a class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#"> Business </a>
+        <p class='d-none d-lg-flex  font-weight-lighter'> | </p>
+        <a class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Tech&Science </a>
+        <p class='d-none d-lg-block font-weight-lighter'> | </p>
+        <a class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Culture </a>
+        <p class='d-none d-lg-block  font-weight-lighter'> | </p>
+        <a class="nav-link text-dark font-weight-bolder d-none d-lg-flex" href="#">Newsgeek</a>
+        <p class='d-none d-lg-block  font-weight-lighter'> | </p>
+        <a class="nav-link text-dark font-weight-bolder d-none d-lg-flex" href="#">Sports </a>
+        <p class='d-none d-lg-block  font-weight-lighter'> | </p>
+        <a class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Health </a>
+        <p class='d-none d-lg-block  font-weight-lighter'> | </p>
+        <a class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Debate </a>
+        <p class='d-none d-lg-block font-weight-lighter'> | </p>
+        <a class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Experts </a>
+        <p class='d-none d-lg-block  font-weight-lighter'> | </p>
+        <a class="nav-link text-dark font-weight-bolder d-none d-lg-flex " href="#">Vantage </a>
+
+
+        <form class='searchform row flex-nowrap ml-2 d-none d-lg-flex mr-auto'>
+          <input class=" border-0   text-dark font-weight-lighter  " title="search-field" type="text" placeholder="Search... ">
+          <i class="fas fa-search font-weight-lighter   text-dark "></i>
         </form>
-        <p style='font-size:12.5px' class="mr-auto"></p>
+
 
       </nav>
 
       <hr class="d-none d-xl-block  bg-white">
-      <nav style="max-width:992px; max-height:50px;" class="nav navbar-expand-xl row align-items-baseline justify-content-between ml-4 flex-nowrap bg-white">
-        <a style='font-size:12.5px' class=" nav-link font-weight-bolder  text-dark d-none d-lg-block pb-1 " href="#">TRENDING</a>
-        <a style='font-size:12.5px' class=" nav-link font-weight-bolder  d-none d-lg-block  text-secondary" href="#">JOE BIDEN</a>
-        <a style='font-size:12.5px' class=" nav-link font-weight-bolder  d-none d-lg-block text-secondary" href="#">DONALD TRUMP</a>
-        <a style='font-size:12.5px' class=" nav-link font-weight-bolder  d-none d-lg-block text-secondary" href="#">INAGURATION</a>
-        <a style='font-size:12.5px' class=" nav-link font-weight-bolder  d-none d-lg-block text-secondary" href="#">CORONA VIRUS</a>
-        <a style='font-size:12.5px' class=" nav-link font-weight-bolder  d-none d-lg-block  text-secondary" href="#">STIMULUS PACKAGE</a>
-        <a style='font-size:12.5px' class=" nav-link font-weight-bolder  d-none d-lg-block text-secondary" href="#">VACCINE</a>
-        <a style='font-size:12.5px' class=" nav-link font-weight-bolder   d-none d-lg-block text-secondary mr-auto" href="#">CAPITAL RIOTS</a>
+      <nav class="nav na-bar navbar-expand-xl row align-items-baseline justify-content-between ml-4 flex-nowrap bg-white">
+        <a class=" nav-link font-weight-bolder  text-dark d-none d-lg-block pb-1 " href="#">TRENDING</a>
+        <a class=" nav-link font-weight-bolder  d-none d-lg-block  text-secondary" href="#">JOE BIDEN</a>
+        <a class=" nav-link font-weight-bolder  d-none d-lg-block text-secondary" href="#">DONALD TRUMP</a>
+        <a class=" nav-link font-weight-bolder  d-none d-lg-block text-secondary" href="#">INAGURATION</a>
+        <a class=" nav-link font-weight-bolder  d-none d-lg-block text-secondary" href="#">CORONA VIRUS</a>
+        <a class=" nav-link font-weight-bolder  d-none d-lg-block  text-secondary" href="#">STIMULUS PACKAGE</a>
+        <a class=" nav-link font-weight-bolder  d-none d-lg-block text-secondary" href="#">VACCINE</a>
+        <a class=" nav-link font-weight-bolder   d-none d-lg-block text-secondary mr-auto" href="#">CAPITAL RIOTS</a>
       </nav>
 
       <hr class="d-none d-lg-block  bg-white">
@@ -110,18 +114,18 @@
             </g>
           </svg>
         </a>
-        <p style='font-size:1.25vw' class=' d-md-flex small text-secondary '>© 2021 NEWSWEEK DIGITAL LLC</p>
+        <p class=' copyright d-md-flex small text-secondary '>© 2021 NEWSWEEK DIGITAL LLC</p>
 
       </div>
 
 
 
-      <div class="d-flex pl-3 mr-4 row  ">
-        <a href="#"> <i style='font-size:2.25vw' class="fab fa-facebook-f mr-2 text-secondary"></i></a>
-        <a href="#"><i style='font-size:2.25vw' class="fab fa-twitter mr-2 text-secondary"></i></a>
-        <a href="#"><i style='font-size:2.25vw' class="fab fa-instagram mr-2 text-secondary"></i></a>
-        <a href="#"><i style='font-size:2.25vw' class="fab fa-tumblr mr-2 text-secondary"></i></a>
-        <a href="#"> <i style='font-size:2.25vw' class="fab fa-linkedin-in mr-2 text-secondary"></i></a>
+      <div class="d-flex pl-3 mr-4 row sociallinks  ">
+        <a href="#"> <i class="fab fa-facebook-f mr-2 text-secondary"></i></a>
+        <a href="#"><i class="fab fa-twitter mr-2 text-secondary"></i></a>
+        <a href="#"><i class="fab fa-instagram mr-2 text-secondary"></i></a>
+        <a href="#"><i class="fab fa-tumblr mr-2 text-secondary"></i></a>
+        <a href="#"> <i class="fab fa-linkedin-in mr-2 text-secondary"></i></a>
       </div>
 
     </div>
