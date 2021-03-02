@@ -108,6 +108,11 @@ p {
   margin-bottom: 0%;
 }
 
+.fs-container {
+  position: sticky;
+  top: 0;
+}
+
 .my-turn-img {
   height: 9.5vw;
 }
@@ -134,14 +139,14 @@ p {
 }
 
 .ms-img,
-.ln-img{
+.ln-img {
   width: 25%;
-  height:90px;
+  height: 90px;
   float: left;
 }
 
 .ms-a,
-.ln-a{
+.ln-a {
   font-size: 15px;
   line-height: 15px;
   color: black;
