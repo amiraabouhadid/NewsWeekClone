@@ -23,7 +23,8 @@
   max-height: 50px;
 }
 
-.na-bar a, p {
+.na-bar a,
+p {
   font-size: 12.5px;
 }
 
