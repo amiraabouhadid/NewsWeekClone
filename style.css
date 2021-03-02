@@ -132,10 +132,15 @@ p {
   font-size: 8px;
   margin-bottom: 0%;
 }
-.ms-img{
-  width:50%;
+
+.ms-img {
+  width: 25%;
+  height: 100%;
+  float: left;
 }
-.ms-a{
-  font-size: 17px;
-line-height: 20px;
+
+.ms-a {
+  font-size: 15px;
+  line-height: 15px;
+  color: black;
 }
