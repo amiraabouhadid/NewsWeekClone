@@ -85,3 +85,14 @@ p {
   color: #f72210;
   font-size: 13px;
 }
+
+.insight-caption {
+  position: relative;
+  bottom: 21px;
+  background-color: rgb(255, 255, 255);
+  width: 65px;
+  opacity: 0.8;
+  text-align: center;
+  color: #f72210;
+  font-size: 13px;
+}
