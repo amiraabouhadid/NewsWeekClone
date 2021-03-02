@@ -6,11 +6,11 @@ main h6 {
 a {
   text-decoration: none;
 }
-.fs-cell{
-  width:100%;
+.fs-cell {
+  width: 100%;
 }
-img{
-  width:100%;
+img {
+  width: 100%;
 }
 
 main p {
@@ -95,4 +95,9 @@ p {
   text-align: center;
   color: #f72210;
   font-size: 13px;
+}
+
+.debate-img {
+  width: 63px;
+  height: 63px;
 }
