@@ -156,3 +156,21 @@ p {
   width: 63px;
   height: 63px;
 }
+
+.debate-img {
+  width: 63px;
+  height: 63px;
+}
+
+.icon-img {
+  width: 40px;
+  height: 40px;
+}
+
+form {
+  background-color: rgba(245, 245, 245, 0.968);
+}
+
+.form-title {
+  font-size: 15px;
+}
