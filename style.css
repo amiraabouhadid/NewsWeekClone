@@ -63,13 +63,15 @@ p {
 
 .politics {
   position: relative;
-  bottom: 31px;
-  background-color: whitesmoke;
+  bottom: 25px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.8;
 }
 
 .u-s {
   position: relative;
-  bottom: 23px;
-  background-color: whitesmoke;
+  bottom: 18px;
+  background-color: rgb(255, 255, 255);
   width: 60px;
+  opacity: 0.8;
 }
