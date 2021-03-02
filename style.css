@@ -15,12 +15,14 @@ p {
   font-size: 1.25vw;
 }
 
-.btn-subscribe {
-  font-size: 2vw;
+.headerleft i {
+  color: white;
+  opacity: 0.7;
+  font-size: 4vw;
 }
 
-.headerleft i {
-  font-size: 4vw;
+.btn-subscribe {
+  font-size: 2vw;
 }
 
 .na-bar {
