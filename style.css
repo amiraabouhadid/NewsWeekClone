@@ -40,3 +40,16 @@ p {
 .sociallinks a {
   font-size: 2.25vw;
 }
+
+.politics {
+  position: relative;
+  bottom: 31px;
+  background-color: whitesmoke;
+}
+
+.u-s {
+  position: relative;
+  bottom: 23px;
+  background-color: whitesmoke;
+  width: 60px;
+}
