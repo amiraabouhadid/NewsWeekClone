@@ -11,6 +11,7 @@ a {
 }
 img{
   width:100%;
+  margin-bottom:0%;
 }
 
 main p {
@@ -81,18 +82,30 @@ p {
   background-color: rgb(255, 255, 255);
   width: 65px;
   opacity: 0.8;
+  height:17.5px;
   text-align: center;
   color: #f72210;
   font-size: 13px;
+  margin-bottom:0%;
 }
-
+.in-title{
+  font-size:20px;
+  line-height: 20px;
+  color:black;
+  opacity:1;
+  font-weight:900;
+}
+.insights-img{
+  margin-bottom:0%;
+}
 .insight-caption {
   position: relative;
   bottom: 21px;
   background-color: rgb(255, 255, 255);
-  width: 65px;
-  opacity: 0.8;
+  width: 150px;
+  height:17.5px;
   text-align: center;
-  color: #f72210;
+  color: cornflowerblue;
   font-size: 13px;
+  margin-bottom:0%;
 }
