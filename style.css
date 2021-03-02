@@ -16,6 +16,11 @@ img {
   margin-bottom: 0%;
 }
 
+.na-bar a,
+p {
+  font-size: 12.5px;
+}
+
 main p {
   font-size: 13px;
 }
@@ -28,11 +33,6 @@ main p {
   font-size: 20px;
   margin-top: 0%;
   line-height: 10px;
-}
-
-.na-bar a,
-p {
-  font-size: 12.5px;
 }
 
 .redheader p {
@@ -150,11 +150,6 @@ p {
   font-size: 15px;
   line-height: 15px;
   color: black;
-}
-
-.debate-img {
-  width: 63px;
-  height: 63px;
 }
 
 .debate-img {
