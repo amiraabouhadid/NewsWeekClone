@@ -169,6 +169,10 @@ form {
   height: 250px;
 }
 
+.magazine-img-one {
+  height: 320px;
+}
+
 .p-megazine {
   position: relative;
   bottom: 35px;
