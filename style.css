@@ -183,7 +183,7 @@ form {
 
 .magazine-title {
   width: 300px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .editor-p {
@@ -207,5 +207,5 @@ form {
 
 .editor-title {
   width: 300px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
