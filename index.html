@@ -104,15 +104,60 @@
   </header>
   <!--body-->
   <main>
+    <!--mobile view-->
 
+      <!--top-stories order-1-->
+      <div class="container-fluid d-sm-inline  d-md-none ">
+
+      </div>
+      <!--fses order-2-->
+      <div class="fs-container order-2">
+
+    </div>
+    <!--debate order-3-->
+    <div class="container-fluid d-sm-block position-absolute d-md-none" style='bottom:0; top:1200px'>
+
+
+    </div>
+    <!--more-stories order-4-->
+    <div class="container-fluid d-sm-block position-absolute d-md-none" style='bottom:0; top:2200px'>
+
+    </div>
+    <!--latest news-5-->
+    <div class="container-fluid d-sm-block position-absolute d-md-none" style='bottom:0; top:3850px'>
+
+
+    </div>
+    <!--my turn-6-->
+    <div class="container-fluid d-sm-block position-absolute d-md-none" style='bottom:0; top:4900px'>
+
+
+    </div>
+    <!--culture-7-->
+    <div class="container-fluid d-sm-block position-absolute d-md-none" style='bottom:0; top:6070px'>
+
+    </div>
+    <!--insights order-8-->
+    <div class="container-fluid d-sm-block position-absolute d-md-none" style='bottom:0; top:7300px'>
+
+    </div>
+    <!--form order-9-->
+    <div class="container-fluid d-sm-block position-absolute d-md-none  " style='bottom:0; top:7900px;width:50%;'>
+
+  </div>
+    <!--insights order-10-->
+    <div class="insight-container order-10">
+
+    </div>
+    </div>
 
     <!--large view-->
 
-    <div class="container-fluid row mt-4 mx-auto ">
-      <div class="fs-container col-sm-12 col-md-6 col-lg-3">
-        <h6 class="text-muted font-weight-bolder">FEATURED STORIES</h6>
+    <div class="container-fluid row mt-4 mx-auto   ">
+      <div class="fs-container col-sm-12 col-md-6 col-lg-3 order-md-1 order-2">
+        <h6 class="text-muted font-weight-bolder  ">FEATURED STORIES</h6>
 
-        <div class="fs-cell mb-2">
+        <div class="fs-cell mb-2  ">
           <a href="#" target="_blank">
             <img src="https://web.archive.org/web/20210121110405im_/https://d.newsweek.com/en/full/1711616/donald-trump.webp?w=397&h=265&q=90&f=d759057143d283aa0ea0ed13fba5450a" alt="Lights" />
             <p class="u-s font-weight-bold">U.S.</p>
@@ -131,7 +176,7 @@
           </p>
         </div>
 
-        <div class="fs-cell mb-2">
+        <div class="fs-cell mb-2  d-sm-none d-md-inline">
           <a href="#" target="_blank">
             <img src="https://web.archive.org/web/20210121110405im_/https://d.newsweek.com/en/full/1711616/donald-trump.webp?w=397&h=265&q=90&f=d759057143d283aa0ea0ed13fba5450a" alt="Lights" />
             <p class="u-s font-weight-bold">U.S.</p>
@@ -275,8 +320,10 @@
         </div>
       </div>
       <!--top story-->
-      <div class="top-story-container col-sm-12 col-md-6 col-lg-5">
-        <div class="top-story-cell">
+
+      <div class="col-sm-12 col-md-6 col-lg-5 order-md-2">
+        <div class="top-story-container d-sm-none d-md-inline order-1">
+
           <h6 class="text-muted font-weight-bolder">TOP STORY</h6>
 
           <a href="#" target="_blank">
@@ -292,10 +339,11 @@
             Actions related to the COVID-19 crisis, climate change and racial
             equality are to be among the first taken as he begins his tenure.
           </p>
+
         </div>
         <!--my turn -->
-        <div class="my-turn-container ">
-          <h6 class="text-muted font-weight-bolder">MY TURN</h6>
+        <div class="my-turn-container d-sm-none d-md-inline order-6 ">
+          <h6 class="text-muted font-weight-bolder ">MY TURN</h6>
           <div class="my-turn-cells row">
             <div class="my-turn-cell col-sm-12 col-md-4 col-lg-4">
               <a href="#" target="_blank">
@@ -330,7 +378,7 @@
           </div>
         </div>
         <!-- culture & travel-->
-        <div class="culturetravel-container ">
+        <div class="culturetravel-container d-sm-none d-md-inline order-7">
           <h6 class="text-muted font-weight-bolder">CULTURE & TRAVEL</h6>
           <div class="ct-cells row">
             <div class="ct-cell col-sm-12 col-md-4 col-lg-4">
@@ -369,7 +417,7 @@
           </div>
         </div>
         <!--MORE STORIES -->
-        <div class="more-stories-container d-none d-md-block d-lg-block mt-2">
+        <div class="more-stories-container mt-2 d-sm-none d-md-inline">
           <h6 class="text-muted font-weight-bolder">MORE STORIES</h6>
           <hr />
           <div class="ms-cells">
@@ -549,7 +597,7 @@
           </div>
         </div>
         <!--latest news-->
-        <div class="latest-news-container">
+        <div class="latest-news-container d-sm-none d-md-inline order-5">
           <h6 class="text-muted font-weight-bolder">LATEST NEWS</h6>
           <hr />
           <div class="ln-cells">
@@ -678,106 +726,125 @@
       </div>
 
       <!-- debate -->
+      <div class="right-column col-lg-3 col-md-12  d-sm-none d-md-inline order-md-3  ">
+        <div class="debate-container  container mt-3 order-3 ">
+          <h6 class="text-muted">THE DEBATE</h6>
+          <hr />
+          <div class="d-cell">
+            <a class="d-flex justify-content-start align-items-start" href="#" target="_blank">
+              <img src="https://web.archive.org/web/20210120140543im_/https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b" alt="Fjords" class="debate-img" />
+              <div class="caption pl-2">
+                <p class="font-weight-bolder text-dark">
+                  Media Have Every Right to Cancel Trump
+                </p>
+                <p class="pb-2 text-dark">BY FROMA HARROP</p>
+              </div>
+            </a>
+          </div>
+          <hr />
+          <div class="d-cell">
+            <a class="d-flex flex-row-reverse align-items-start" href="#" target="_blank">
+              <img src="https://web.archive.org/web/20210120140543im_/https://d.newsweek.com/en/full/1591942/rachel-bovard.webp?w=63&h=63&f=4015164d66f974605b08657edb079340" alt="Fjords" class="debate-img" />
+              <div class="caption pl-2">
+                <p class="font-weight-bolder text-dark">
+                  U.S. Supply Chain: Stop Driving Blind
+                </p>
+                <p class="text-dark">BY FROMA HARROP</p>
+              </div>
+            </a>
+          </div>
 
-      <div class="debate-container col-lg-3 col-md-12 col-sm-12">
-        <h6 class="text-muted">THE DEBATE</h6>
-        <hr />
-        <a class="d-flex justify-content-start align-items-start" href="#" target="_blank">
-          <img src="https://web.archive.org/web/20210120140543im_/https://d.newsweek.com/en/full/1673623/froma-harrop.webp?w=63&h=63&f=2ba48b46c4bcf031c010ff486c04d55b" alt="Fjords" class="debate-img" />
-          <div class="caption pl-2">
-            <p class="font-weight-bolder text-dark">
-              Media Have Every Right to Cancel Trump
-            </p>
-            <p class="pb-2 text-dark">BY FROMA HARROP</p>
+          <hr />
+          <h6 class="text-muted font-weight-bolder">OPINION</h6>
+          <div class="d-cell">
+            <a class="d-flex align-items-start" href="#" target="_blank">
+              <img src="https://web.archive.org/web/20210120140544im_/https://d.newsweek.com/en/full/1711112/frank-cilluffo-stewart-baker.webp?w=63&h=63&f=c8715cf70500acc34647c1513b28d46f" alt="trump" class="debate-img" />
+              <div class="caption pl-2">
+                <p class="font-weight-bolder text-dark">
+                  Media Have Every Right to Cancel Trump
+                </p>
+                <p class="text-dark">BY FRANK CILLUFFO AND STEWART BAKER</p>
+              </div>
+            </a>
           </div>
-        </a>
-        <hr />
-        <a class="d-flex flex-row-reverse align-items-start" href="#" target="_blank">
-          <img src="https://web.archive.org/web/20210120140543im_/https://d.newsweek.com/en/full/1591942/rachel-bovard.webp?w=63&h=63&f=4015164d66f974605b08657edb079340" alt="Fjords" class="debate-img" />
-          <div class="caption pl-2">
-            <p class="font-weight-bolder text-dark">
-              U.S. Supply Chain: Stop Driving Blind
-            </p>
-            <p class="text-dark">BY FROMA HARROP</p>
+          <hr />
+          <div class="d-cell">
+            <a class="d-flex align-items-start" href="#" target="_blank">
+              <img src="https://web.archive.org/web/20210120140544im_/https://d.newsweek.com/en/full/1685792/rick-scott.webp?w=63&h=63&f=a0a140e366531ff91944134bb9f0628f" alt="trump" class="debate-img" />
+              <div class="caption pl-2">
+                <p class="font-weight-bolder text-dark">
+                  After Violence at the Capitol, Congress Must Ensure Election
+                  Integrity
+                </p>
+                <p class="text-dark">BY RICK SCOTT</p>
+              </div>
+            </a>
           </div>
-        </a>
+          <hr />
+          <div class="d-cell">
+            <a class="d-flex align-items-start" href="#" target="_blank">
+              <img src="https://web.archive.org/web/20210120140544im_/https://d.newsweek.com/en/full/1563625/nigel-farage.webp?w=63&h=63&f=241bf306fe74b397c2ecf4116cc79b62" alt="trump" class="debate-img" />
+              <div class="caption pl-2">
+                <p class="font-weight-bolder text-dark">
+                  Despite January 6, Trump Leaves a Legacy of Trust with Voters
+                </p>
+                <p class="text-dark">BY NIGEL FARAGE</p>
+              </div>
+            </a>
+          </div>
+          <hr />
+          <div class="d-cell">
+            <a class="d-flex align-items-start" href="#" target="_blank">
+              <img src="https://web.archive.org/web/20210120125733im_/https://d.newsweek.com/en/full/1666341/philip-jeffery.png?w=63&h=63&f=e4c1005d67b9f7781272f75a3c1351d7" alt="trump" class="debate-img" />
+              <div class="caption pl-2">
+                <p class="font-weight-bolder text-dark">
+                  Narcissism and Nihilism on Capitol Hill
+                </p>
+                <p class="text-dark">BY PHILIP JEFFERY</p>
+              </div>
+            </a>
+          </div>
+          <hr />
+          <div class="d-cell">
+            <a class="d-flex align-items-start" href="#" target="_blank">
+              <img src="https://web.archive.org/web/20210120140544im_/https://d.newsweek.com/en/full/1593404/bruce-abramson.webp?w=63&h=63&f=91f1ebcd06e30cecf14cfc88d76785a1" alt="trump" class="debate-img" />
+              <div class="caption pl-2">
+                <p class="font-weight-bolder text-dark">
+                  Exit Trump, Tragic American Hero
+                </p>
+                <p class="text-dark">BY BRUCE ABRAMSON</p>
+              </div>
+            </a>
+          </div>
+          <hr />
+          <div class="d-cell">
+            <a class="d-flex align-items-start" href="#" target="_blank">
+              <img src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1646843/mark-davis.webp?w=63&h=63&f=5509ca2d256531e792d45e5e4f2af6d7" alt="trump" class="debate-img" />
+              <div class="caption pl-2">
+                <p class="font-weight-bolder text-dark">
+                  As the 46th President Takes Office, Let's Discuss the 47th
+                </p>
+                <p class="text-dark">BY MARK DAVIS</p>
+              </div>
+            </a>
+          </div>
+          <hr />
+          <div class="d-cell">
+            <a class="d-flex align-items-start" href="#" target="_blank">
+              <img src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711201/abraham-cooper-manfred-gerstenfeld.webp?w=63&h=63&f=6ec22907dac879830fc277553fabc846" alt="Fjords" class="debate-img" />
+              <div class="caption pl-2">
+                <p class="text-dark font-weight-bold">
+                  Is the European Union Combating or Whitewashing Anti-Semitism?
+                </p>
+                <p class="pb-2 text-dark">
+                  BY ABRAHAM COOPER AND MANFRED GERSTENFELD
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
 
-        <hr />
-        <h6 class="text-muted font-weight-bolder">OPINOIN</h6>
-        <a class="d-flex align-items-start" href="#" target="_blank">
-          <img src="https://web.archive.org/web/20210120140544im_/https://d.newsweek.com/en/full/1711112/frank-cilluffo-stewart-baker.webp?w=63&h=63&f=c8715cf70500acc34647c1513b28d46f" alt="trump" class="debate-img" />
-          <div class="caption pl-2">
-            <p class="font-weight-bolder text-dark">
-              Media Have Every Right to Cancel Trump
-            </p>
-            <p class="text-dark">BY FRANK CILLUFFO AND STEWART BAKER</p>
-          </div>
-        </a>
-        <hr />
-        <a class="d-flex align-items-start" href="#" target="_blank">
-          <img src="https://web.archive.org/web/20210120140544im_/https://d.newsweek.com/en/full/1685792/rick-scott.webp?w=63&h=63&f=a0a140e366531ff91944134bb9f0628f" alt="trump" class="debate-img" />
-          <div class="caption pl-2">
-            <p class="font-weight-bolder text-dark">
-              After Violence at the Capitol, Congress Must Ensure Election
-              Integrity
-            </p>
-            <p class="text-dark">BY RICK SCOTT</p>
-          </div>
-        </a>
-        <hr />
-        <a class="d-flex align-items-start" href="#" target="_blank">
-          <img src="https://web.archive.org/web/20210120140544im_/https://d.newsweek.com/en/full/1563625/nigel-farage.webp?w=63&h=63&f=241bf306fe74b397c2ecf4116cc79b62" alt="trump" class="debate-img" />
-          <div class="caption pl-2">
-            <p class="font-weight-bolder text-dark">
-              Despite January 6, Trump Leaves a Legacy of Trust with Voters
-            </p>
-            <p class="text-dark">BY NIGEL FARAGE</p>
-          </div>
-        </a>
-        <hr />
-        <a class="d-flex align-items-start" href="#" target="_blank">
-          <img src="https://web.archive.org/web/20210120125733im_/https://d.newsweek.com/en/full/1666341/philip-jeffery.png?w=63&h=63&f=e4c1005d67b9f7781272f75a3c1351d7" alt="trump" class="debate-img" />
-          <div class="caption pl-2">
-            <p class="font-weight-bolder text-dark">
-              Narcissism and Nihilism on Capitol Hill
-            </p>
-            <p class="text-dark">BY PHILIP JEFFERY</p>
-          </div>
-        </a>
-        <hr />
-        <a class="d-flex align-items-start" href="#" target="_blank">
-          <img src="https://web.archive.org/web/20210120140544im_/https://d.newsweek.com/en/full/1593404/bruce-abramson.webp?w=63&h=63&f=91f1ebcd06e30cecf14cfc88d76785a1" alt="trump" class="debate-img" />
-          <div class="caption pl-2">
-            <p class="font-weight-bolder text-dark">
-              Exit Trump, Tragic American Hero
-            </p>
-            <p class="text-dark">BY BRUCE ABRAMSON</p>
-          </div>
-        </a>
-        <hr />
-        <a class="d-flex align-items-start" href="#" target="_blank">
-          <img src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1646843/mark-davis.webp?w=63&h=63&f=5509ca2d256531e792d45e5e4f2af6d7" alt="trump" class="debate-img" />
-          <div class="caption pl-2">
-            <p class="font-weight-bolder text-dark">
-              As the 46th President Takes Office, Let's Discuss the 47th
-            </p>
-            <p class="text-dark">BY MARK DAVIS</p>
-          </div>
-        </a>
-        <hr />
-        <a class="d-flex align-items-start" href="#" target="_blank">
-          <img src="https://web.archive.org/web/20210120125445im_/https://d.newsweek.com/en/full/1711201/abraham-cooper-manfred-gerstenfeld.webp?w=63&h=63&f=6ec22907dac879830fc277553fabc846" alt="Fjords" class="debate-img" />
-          <div class="caption pl-2">
-            <p class="text-dark font-weight-bold">
-              Is the European Union Combating or Whitewashing Anti-Semitism?
-            </p>
-            <p class="pb-2 text-dark">
-              BY ABRAHAM COOPER AND MANFRED GERSTENFELD
-            </p>
-          </div>
-        </a>
-
-        <div class="insights-cell card mb-3 d-none d-md-block d-lg-block col-md-8 mx-auto col-lg-12">
+        <div class="insights-cell card mb-3 col-md-8 mx-auto col-lg-12">
           <a href="#" target="_blank">
             <img class="insights-img" src="https://web.archive.org/web/20210121110405im_/https://d.newsweek.com/en/full/1711616/donald-trump.webp?w=397&h=265&q=90&f=d759057143d283aa0ea0ed13fba5450a" alt="Lights" />
             <p class="insight-caption font-weight-bold">SPONSORED INSIGHT</p>
@@ -856,7 +923,7 @@
   </main>
 
   <!-- footer -->
-  <footer class='container-fluid p-3 '>
+  <footer class='container-fluid p-3 position-absolute d-md-none' style='bottom:0; top:10100px'>
     <div class="d-flex  flex-wrap align-items-baseline justify-content-between ">
 
       <div class="d-flex row flex-wrap align-items-baseline justify-content-between">
