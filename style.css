@@ -186,3 +186,17 @@ form {
   width: 300px;
   margin: 0px auto;
 }
+
+.editor-p {
+  width: 100px;
+  background-color: whitesmoke;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  bottom: 34px;
+}
+
+.tech-p {
+  width: 150px;
+}
