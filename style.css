@@ -140,6 +140,18 @@ main p {
   float: left;
 }
 
+.top-story-container {
+  order: 1;
+}
+
+.fs-container {
+  order: 2;
+}
+
+.debate-container {
+  order: 3;
+}
+
 .ms-a,
 .ln-a {
   font-size: 15px;
