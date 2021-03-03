@@ -129,14 +129,20 @@ main p {
 }
 
 .ms-img,
-.ln-img {
+.ln-img,
+.us-3-img {
   width: 25%;
   height: 90px;
   float: left;
 }
 
+.mss-title {
+  color: #f72210;
+}
+
 .ms-a,
-.ln-a {
+.ln-a,
+.us-3-a {
   font-size: 15px;
   line-height: 15px;
   color: black;
