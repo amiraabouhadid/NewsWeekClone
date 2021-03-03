@@ -25,7 +25,8 @@ main p {
   font-size: 13px;
 }
 
-.redheader {
+.redheader,
+.nws-btn {
   background-color: #f72210;
 }
 
