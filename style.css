@@ -200,3 +200,13 @@ form {
 .tech-p {
   width: 150px;
 }
+
+.editor-header {
+  position: relative;
+  bottom: 40px;
+}
+
+.editor-title {
+  width: 300px;
+  margin: 0px auto;
+}
