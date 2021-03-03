@@ -108,17 +108,12 @@ main p {
   margin-bottom: 0%;
 }
 
-.fs-container {
-  position: sticky;
-  top: 0;
-}
-
 .ct-a {
   line-height: 10px;
 }
 
 .ct-img {
-  margin-bottom: 0%;
+  margin-bottom: 0;
 }
 
 .ct-caption {
@@ -130,7 +125,7 @@ main p {
   text-align: center;
   color: black;
   font-size: 8px;
-  margin-bottom: 0%;
+  margin-bottom: 0;
 }
 
 .ms-img,
@@ -138,18 +133,6 @@ main p {
   width: 25%;
   height: 90px;
   float: left;
-}
-
-.top-story-container {
-  order: 1;
-}
-
-.fs-container {
-  order: 2;
-}
-
-.debate-container {
-  order: 3;
 }
 
 .ms-a,
