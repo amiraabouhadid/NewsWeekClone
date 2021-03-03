@@ -1,1 +1,166 @@
+main h6 {
+  font-size: 12.5px;
+  opacity: 0.6;
+}
 
+a {
+  text-decoration: none;
+}
+
+.fs-cell {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+.na-bar a,
+p {
+  font-size: 12.5px;
+}
+
+main p {
+  font-size: 13px;
+}
+
+.redheader {
+  background-color: #f72210;
+}
+
+.main-t {
+  font-size: 20px;
+  margin-top: 0%;
+  line-height: 10px;
+}
+
+.redheader p {
+  font-size: 1.25vw;
+}
+
+.btn-login {
+  font-size: 1.25vw;
+}
+
+.headerleft i {
+  color: white;
+  opacity: 0.7;
+  font-size: 4vw;
+}
+
+.btn-subscribe {
+  font-size: 2vw;
+}
+
+.na-bar {
+  max-width: 992px;
+  max-height: 50px;
+}
+
+.searchform input {
+  font-size: 12.5px;
+  width: 50px;
+}
+
+.copyright {
+  font-size: 1.75vw;
+}
+
+.sociallinks a {
+  font-size: 2.25vw;
+}
+
+.u-s {
+  position: relative;
+  bottom: 21px;
+  background-color: rgb(255, 255, 255);
+  width: 65px;
+  opacity: 0.8;
+  height: 17.5px;
+  text-align: center;
+  color: #f72210;
+  font-size: 13px;
+  margin-bottom: 0%;
+}
+
+.in-title {
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+  opacity: 1;
+  font-weight: 900;
+}
+
+.insights-img {
+  margin-bottom: 0%;
+}
+
+.insight-caption {
+  position: relative;
+  bottom: 21px;
+  background-color: rgb(255, 255, 255);
+  width: 150px;
+  height: 17.5px;
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 13px;
+  margin-bottom: 0%;
+}
+
+.fs-container {
+  position: sticky;
+  top: 0;
+}
+
+.ct-a {
+  line-height: 10px;
+}
+
+.ct-img {
+  margin-bottom: 0%;
+}
+
+.ct-caption {
+  position: relative;
+  bottom: 12.5px;
+  background-color: lightgrey;
+  width: 50px;
+  height: 13px;
+  text-align: center;
+  color: black;
+  font-size: 8px;
+  margin-bottom: 0%;
+}
+
+.ms-img,
+.ln-img {
+  width: 25%;
+  height: 90px;
+  float: left;
+}
+
+.ms-a,
+.ln-a {
+  font-size: 15px;
+  line-height: 15px;
+  color: black;
+}
+
+.debate-img {
+  width: 63px;
+  height: 63px;
+}
+
+.icon-img {
+  width: 40px;
+  height: 40px;
+}
+
+form {
+  background-color: rgba(245, 245, 245, 0.968);
+}
+
+.form-title {
+  font-size: 15px;
+}
