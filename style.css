@@ -164,3 +164,18 @@ form {
 .form-title {
   font-size: 15px;
 }
+
+.magazine-img {
+  height: 250px;
+}
+
+.p-megazine {
+  position: relative;
+  bottom: 19px;
+  opacity: 0.7;
+}
+
+.btn-megazine {
+  position: relative;
+  bottom: 35px;
+}
