@@ -3,6 +3,10 @@ main h6 {
   opacity: 0.6;
 }
 
+main h5 {
+  font-size: 17px;
+}
+
 a {
   text-decoration: none;
 }
