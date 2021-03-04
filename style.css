@@ -1,6 +1,14 @@
+* {
+  overflow-x: hidden;
+}
+
 main h6 {
   font-size: 12.5px;
   opacity: 0.6;
+}
+
+.sub {
+  overflow-y: hidden;
 }
 
 a {
@@ -25,7 +33,8 @@ main p {
   font-size: 13px;
 }
 
-.redheader {
+.redheader,
+.nws-btn {
   background-color: #f72210;
 }
 
@@ -108,17 +117,12 @@ main p {
   margin-bottom: 0%;
 }
 
-.fs-container {
-  position: sticky;
-  top: 0;
-}
-
 .ct-a {
   line-height: 10px;
 }
 
 .ct-img {
-  margin-bottom: 0%;
+  margin-bottom: 0;
 }
 
 .ct-caption {
@@ -130,18 +134,24 @@ main p {
   text-align: center;
   color: black;
   font-size: 8px;
-  margin-bottom: 0%;
+  margin-bottom: 0;
 }
 
 .ms-img,
-.ln-img {
+.ln-img,
+.us-3-img {
   width: 25%;
   height: 90px;
   float: left;
 }
 
+.mss-title {
+  color: #f72210;
+}
+
 .ms-a,
-.ln-a {
+.ln-a,
+.us-3-a {
   font-size: 15px;
   line-height: 15px;
   color: black;
@@ -163,4 +173,135 @@ form {
 
 .form-title {
   font-size: 15px;
+}
+
+.magazine-img {
+  height: 250px;
+}
+
+.magazine-img-one {
+  height: 320px;
+}
+
+.p-megazine {
+  position: relative;
+  bottom: 35px;
+  opacity: 0.7;
+  width: 150px;
+  text-align: center;
+}
+
+.btn-megazine {
+  position: relative;
+  bottom: 51px;
+}
+
+.magazine-title {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.editor-p {
+  width: 100px;
+  background-color: whitesmoke;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  bottom: 34px;
+}
+
+.tech-p {
+  width: 150px;
+}
+
+.editor-header {
+  position: relative;
+  bottom: 40px;
+}
+
+.editor-title {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.subscribe {
+  background-color: whitesmoke;
+}
+
+.subscribe-p {
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  right: 75px;
+}
+
+.newsletter {
+  background-color: whitesmoke;
+}
+
+.jumb-img {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 500px;
+}
+
+.jumb-img-lg {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.jumb-img1 {
+  position: relative;
+  right: 95px;
+  top: 15px;
+}
+
+.jumb-news-tablet {
+  width: 360px;
+  height: 290px;
+}
+
+.jumb-img2 {
+  position: relative;
+  right: 95px;
+  top: 15px;
+}
+
+.jumb-news {
+  height: 290px;
+}
+
+.form-control-tablet-input {
+  width: 200px;
+}
+
+.subscribe-p-mob {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  color: black;
+}
+
+.subscribe-p-mob2 {
+  width: 65%;
+  margin: 0 auto 20px;
+  font-weight: lighter;
+}
+
+.jb-title {
+  font-size: 18px;
+  color: black;
+}
+
+.form-control-tablet {
+  width: 215px;
+}
+
+.news-title {
+  text-align: center;
+  width: 90%;
+  margin: 20px auto 20px;
 }
