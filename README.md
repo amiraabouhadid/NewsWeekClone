@@ -4,7 +4,7 @@
 
 We were asked to create a responsive clone of the Newsweek webpage using Bootsrap.
 
-![project3](https://user-images.githubusercontent.com/56790126/109511517-cbac6000-7aab-11eb-8e9d-2c7d0b7788ae.png)
+![Screenshot from 2021-03-03 18-52-29](https://user-images.githubusercontent.com/56790126/109841426-b5d89f80-7c51-11eb-91da-18926e6639e7.png)
 
 Additional description about the project and its features.
 
@@ -70,4 +70,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/git/git-scm.com/blob/master/MIT-LICENSE.txt) licensed.
