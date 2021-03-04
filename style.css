@@ -233,7 +233,7 @@ form {
   width: 400px;
   margin: 0 auto;
   position: relative;
-  right: 90px;
+  right: 75px;
 }
 
 .newsletter {
@@ -257,6 +257,11 @@ form {
   top: 15px;
 }
 
+.jumb-news-tablet {
+  width: 360px;
+  height: 290px;
+}
+
 .jumb-img2 {
   position: relative;
   right: 95px;
@@ -265,6 +270,10 @@ form {
 
 .jumb-news {
   height: 290px;
+}
+
+.form-control-tablet-input {
+  width: 200px;
 }
 
 .subscribe-p-mob {
@@ -285,6 +294,10 @@ form {
 .jb-title {
   font-size: 18px;
   color: black;
+}
+
+.form-control-tablet {
+  width: 215px;
 }
 
 .news-title {
