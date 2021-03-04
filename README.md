@@ -6,7 +6,6 @@ We were asked to create a responsive clone of the Newsweek webpage using Bootsra
 
 ![Screenshot from 2021-03-03 18-52-29](https://user-images.githubusercontent.com/56790126/109841426-b5d89f80-7c51-11eb-91da-18926e6639e7.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
