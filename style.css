@@ -232,13 +232,14 @@ form {
 .subscribe-p {
   width: 400px;
   margin: 0 auto;
-position: relative;
-right: 90px;
+  position: relative;
+  right: 90px;
 }
 
 .newsletter {
   background-color: whitesmoke;
 }
+
 .jumb-img {
   overflow-y: hidden;
   overflow-x: hidden;
@@ -286,10 +287,8 @@ right: 90px;
   color: black;
 }
 
-.news-title{
-text-align:center;
-width:90%;
-margin:20px auto 20px;
-
+.news-title {
+  text-align: center;
+  width: 90%;
+  margin: 20px auto 20px;
 }
-
