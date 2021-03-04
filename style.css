@@ -224,3 +224,72 @@ form {
   width: 300px;
   margin: 0 auto;
 }
+
+.subscribe {
+  background-color: whitesmoke;
+}
+
+.subscribe-p {
+  width: 400px;
+  margin: 0 auto;
+position: relative;
+right: 90px;
+}
+
+.newsletter {
+  background-color: whitesmoke;
+}
+.jumb-img {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 500px;
+}
+
+.jumb-img-lg {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.jumb-img1 {
+  position: relative;
+  right: 95px;
+  top: 15px;
+}
+
+.jumb-img2 {
+  position: relative;
+  right: 95px;
+  top: 15px;
+}
+
+.jumb-news {
+  height: 290px;
+}
+
+.subscribe-p-mob {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  color: black;
+}
+
+.subscribe-p-mob2 {
+  width: 65%;
+  margin: 0 auto 20px;
+  font-weight: lighter;
+}
+
+.jb-title {
+  font-size: 18px;
+  color: black;
+}
+
+.news-title{
+text-align:center;
+width:90%;
+margin:20px auto 20px;
+
+}
+
